@@ -29,14 +29,6 @@ body {
 	background-image: url(images/banner_bg_small.png);
 }
 
-.bannerIcon {
-	text-align:center;
-	float: left;
-	width: 200px;
-	height: 50px;
-	margin-top: 10px;
-}
-
 .navigation {
 	position: absolute;
 	
@@ -56,6 +48,14 @@ body {
 	float:left;
 	width:200px;
 	height:50px;	
+}
+
+.footerIcon {
+	text-align:center;
+	float: left;
+	width: 200px;
+	height: 50px;
+	margin-top: 10px;
 }
 
 /*Links*/
