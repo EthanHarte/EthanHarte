@@ -1,3 +1,9 @@
+/*******************************************
+/ File: style.css
+/ Author: Ethan Harte
+/ Description: sylesheet for EthanHarte.com
+/*******************************************/
+
 h1 {
 	text-align:center;
 	color:brown;
@@ -5,4 +11,70 @@ h1 {
 
 body {
 	background-image: url("http://i.imgur.com/9a9H8ED.jpg");
+}
+
+
+/*Div Classes*/
+.banner {
+	z-index: 99;
+	position: absolute;
+	
+	width: 1000px;
+	left: 50%;
+	margin-left:-500px;
+	
+	height: 182px;
+	top: 0;
+	
+	background-image: url(images/banner_bg_small.png);
+}
+
+.bannerIcon {
+	text-align:center;
+	float: left;
+	width: 200px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.navigation {
+	position: absolute;
+	
+	width: 1000px;
+	left: 50%;
+	margin-left:-500px;
+	
+	height: 50px;
+	margin-top: 150px;
+	
+	background-color: #dedede;
+}
+
+.navigationButtons {
+	z-index:100;
+	text-align:center;
+	float:left;
+	width:200px;
+	height:50px;	
+}
+
+/*Links*/
+a:link {
+    color: #405B58;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #405B58;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #83A6CE;
+    text-decoration: blink;
+}
+
+a:active {
+    color: #83A6CE;
+    text-decoration: underline;
 }
