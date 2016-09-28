@@ -5,7 +5,7 @@
 /*******************************************/
 
 h1 {
-	text-align:center;
+	//text-align:center;
 	color:brown;
 }
 
@@ -15,44 +15,56 @@ body {
 
 
 /*Div Classes*/
-.banner {
-	z-index: 99;
+.container {
 	position: absolute;
-	
 	width: 1000px;
+	height:100%;
 	left: 50%;
 	margin-left:-500px;
-	
-	height: 182px;
-	top: 0;
-	
-	background-image: url(images/banner_bg_small.png);
+	top:200px;	
+}
+
+.banner {
+	z-index:99;
+	position:fixed;
+	width:1000px;	
+	height:182px;
+	top:0;
+	background-image:url(images/banner_bg_small.png);
 }
 
 .navigation {
-	position: absolute;
-	
+	z-index:0;
 	width: 1000px;
-	left: 50%;
-	margin-left:-500px;
-	
 	height: 50px;
-	margin-top: 150px;
-	
+	margin: 0 auto;
+	margin-top:-40px;
 	background-color: #dedede;
 }
 
 .navigationButtons {
 	z-index:100;
+	//position:relative;
 	text-align:center;
 	float:left;
 	width:200px;
-	height:50px;	
+	height:50px;
+}
+
+.bodyContent {
+	text-align:center;
+	background-color:#ffffff;
+	width:1000px;
+}
+
+.footer {
+	margin: 0 auto;
+	width:250px;
+	height:50px;
 }
 
 .footerIcon {
-	//text-align:center;
-	//float: left;
+	float: left;
 	width: 50px;
 	height: 50px;
 }
