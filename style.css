@@ -11,13 +11,13 @@ h1 {
 
 body {
 	//background-color: white;
-	background-image: url(images/bg_content.jpg);
+	background-image: url(images/bg.jpg);
 }
 
 
 /*Div Classes*/
 .container {
-	position: absolute;
+	position: fixed;
 	width: 1000px;
 	height:100%;
 	left: 50%;
@@ -31,7 +31,7 @@ body {
 	width:1000px;	
 	height:182px;
 	top:0;
-	background-image:url(images/banner_bg_small.png);
+	background-image:url(images/bg_banner_small.png);
 }
 
 .navigation {
@@ -53,10 +53,13 @@ body {
 }
 
 .bodyContent {
+	overflow-y: scroll;
+	overflow-x: hidden;
 	padding: 15px;
 	//text-align:center;
 	background-color:#ffffff;
 	width:970px;
+	height: 650px;
 }
 
 .footer {
