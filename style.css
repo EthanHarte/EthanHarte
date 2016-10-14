@@ -7,17 +7,30 @@
 h1 {
 	//text-align:center;
 	color:#004477;
+	line-height: 50%;
+}
+
+h3 {
+	line-height: 80%;
+}
+
+h4 {
+	line-height: 10%;
+}
+
+p {
+	line-height: 110%;
 }
 
 body {
+	overflow-y: scroll;
 	//background-color: white;
 	background-image: url(images/bg.jpg);
 }
 
-
 /*Div Classes*/
 .container {
-	position: fixed;
+	position: relative;
 	width: 1000px;
 	height:100%;
 	left: 50%;
@@ -40,7 +53,7 @@ body {
 	height: 50px;
 	margin: 0 auto;
 	margin-top:-40px;
-	background-color: #dedede;
+	background-color: #cccccc;
 }
 
 .navigationButtons {
@@ -53,8 +66,8 @@ body {
 }
 
 .bodyContent {
-	overflow-y: scroll;
-	overflow-x: hidden;
+	//overflow-y: scroll;
+	//overflow-x: hidden;
 	padding: 15px;
 	//text-align:center;
 	background-color:#ffffff;
