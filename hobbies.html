@@ -6,7 +6,7 @@
 	<title>EH - Hobbies</title>
 	<link type="text/css" rel="stylesheet" href="style.css"/>
     <link rel='shortcut icon' href='images/icon_title.png' type='image/x-icon'/ >
-    
+	
 	<script type="text/javascript">
 		function MM_swapImgRestore() { //v3.0
 		  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
@@ -30,7 +30,7 @@
 		   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 		}
     </script>
-    
+	
 </head>
 
 <body onLoad="MM_preloadImages('images/icon_linkedin_roll.png','images/icon_github_roll.png','images/icon_email_roll.png','images/icon_phone_roll.png','images/icon_instagram_roll.png')">
@@ -57,8 +57,38 @@
 		
 		<div class="bodyContent">
 			<center><img src="images/banner_hobbies.png"/></center>
+			<center><img src="images/divider.png" width="100%"/></center>
+			
+			<h1>Music</h1>
+			<img src="images/hobbies_music.jpg" width="200" style="float:left; padding-right:10px; padding-bottom:10px"/>
+			<p>I collect music in both digital and analog formats. My digital collection is about a 1TB and I have a record collection of about 250 records.
+			My collection spans all genres, my favorites being classical, rock, and black metal. I am very proud of the collection I have accumulated so far and 
+			do not plan to stop anytime soon.</p>
+			Find out more by visiting my <a href="https://www.discogs.com/user/eharte" target="blank">Discogs</a> page
+			or by visiting my <a href="https://www.instagram.com/notethanharte/" target="blank">Instagram</a>.
 			<center><img src="images/divider.png" align="center" width="100%"/></center>
-			<h1>WIP: coming soon</h1>
+			
+			<h1>Audio Engineering</h1>
+			<img src="images/hobbies_spectrogram.png" width="200" height="100" style="float:left; padding-right:10px; padding-bottom:10px"/>
+			<p>Have done personal research on the technicalities of sound such as DACs, ADCs, distortion, gain, speaker impedance, speaker 
+			drivers, digital sound file formats/encoding, audio signals (balanced vs single ended), and digital signal processing. I am currently doing some research 
+			on vacuum tube transistors as I would like to design and build myself a new tube amplifier.</p>
+			<center><img src="images/divider.png" align="center" width="100%"/></center>
+			
+			<h1>Photography</h1>
+			<img src="images/hobbies_photography.jpg" width="200" style="float:left; padding-right:10px; padding-bottom:10px"/>
+			<p>In 2012, I had the oportunity to travel to Haiti as a volunteer for a non-profit named Zanmi Lakay. Zanmi Lakay hosted a photojournalism camp for homeless 
+			children living in Haiti. My role was to manage the cameras and teach the children how to use the cameras. I also got some one-on-one with a few students
+			to teach them photoshop.</p>
+			<p>I have also taken photos of the Oakland Occupy marches, a Chinese new year parade, a Cinco de Mayo parade, and Colorodo nature.</p>
+			<button id="buttonHaiti">Haiti</button>
+			<button id="buttonOak">Oakland Occupy</button>
+			<button id="buttonColorado">Colorado</button>
+			<button id="buttonCinco">Cinco De Mayo</button>
+			<button id="buttonBird">Humming Bird</button>
+			<button id="buttonOther">Other</button>
+			<center><img src="images/divider.png" align="center" width="100%"/></center>
+			
 		</div>
 		
 		<div class="footer">
@@ -91,6 +121,317 @@
 		</div>
 		
 	</div>
+	
+	<div id="overlay"></div>
+	<div id="popupHaiti">
+		<div class="popupcontrolsHaiti">
+			<span id="popupcloseHaiti">X</span>
+		</div>
+		<div class="popupcontentHaiti">
+			<h1 align="center">Haiti Photo Gallery</h1>
+			<div class="slideshow-container">
+				<div class="mySlides Haiti">
+					<div class="numbertext">1 / 12</div>
+					<img src="images/Haiti/Haiti1.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">Each student got one or two photos displayed in a 
+					final photo exibition at the end of the Jouk Li Jou Kan Foto youth photography camp.</div>
+				</div>
+				<div class="mySlides Haiti">
+					<div class="numbertext">2 / 12</div>
+					<img src="images/Haiti/Haiti2.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">Student Photo Exibition</div>
+				</div>
+				<div class="mySlides Haiti">
+					<div class="numbertext">3 / 12</div>
+					<img src="images/Haiti/Haiti3.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">Preparing a banner for the exibition.</div>
+				</div>
+				<div class="mySlides Haiti">
+					<div class="numbertext">4 / 12</div>
+					<img src="images/Haiti/Haiti4.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">Hand woven hats for sale on the beach in Jacmel.</div>
+				</div>
+				<div class="mySlides Haiti">
+					<div class="numbertext">5 / 12</div>
+					<img src="images/Haiti/Haiti5.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">The Haitian streets.</div>
+				</div>
+				<div class="mySlides Haiti">
+					<div class="numbertext">6 / 12</div>
+					<img src="images/Haiti/Haiti6.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">I found it amazing the amount of stuff that people could carry on their heads. 
+					This was one of the crziest.</div>
+				</div>
+				<div class="mySlides Haiti">
+					<div class="numbertext">7 / 12</div>
+					<img src="images/Haiti/Haiti7.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">Another Jacmel beach. This time the beach is made of garbage instead of sand. This was 
+					a major issue throughout Haiti. Many times we would come across large piles of garbage on the street and 
+					other it would wash up from the ocean. Unfourtunately, most of the garbage ends up in the ocean.</div>
+				</div>
+				<div class="mySlides Haiti">
+					<div class="numbertext">8 / 12</div>
+					<img src="images/Haiti/Haiti8.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">There was so much garbage that wild pigs and homeless dogs would scavange for food. 
+					Most probably lived in it.</div>
+				</div>
+				<div class="mySlides Haiti">
+					<div class="numbertext">9 / 12</div>
+					<img src="images/Haiti/Haiti9.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">More garbage. More dogs.</div>
+				</div>
+				<div class="mySlides Haiti">
+					<div class="numbertext">10 / 12</div>
+					<img src="images/Haiti/Haiti10.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">Haitian people walked through this garbage almost as much as the wild animals.</div>
+				</div>
+				<div class="mySlides Haiti">
+					<div class="numbertext">11 / 12</div>
+					<img src="images/Haiti/Haiti11.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">Hair business on the beach.</div>
+				</div>
+				<div class="mySlides Haiti">
+					<div class="numbertext">12 / 12</div>
+					<img src="images/Haiti/Haiti12.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text"></div>
+				</div>
+				<a class="prev" onclick="plusSlides(-1)"> < </a>
+				<a class="next" onclick="plusSlides(1)"> > </a>
+			</div>
+			
+			<br>
+
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span> 
+				<span class="dot" onclick="currentSlide(4)"></span> 
+				<span class="dot" onclick="currentSlide(5)"></span> 
+				<span class="dot" onclick="currentSlide(6)"></span> 
+				<span class="dot" onclick="currentSlide(7)"></span> 
+				<span class="dot" onclick="currentSlide(8)"></span> 
+				<span class="dot" onclick="currentSlide(9)"></span> 
+				<span class="dot" onclick="currentSlide(10)"></span> 
+				<span class="dot" onclick="currentSlide(11)"></span> 
+				<span class="dot" onclick="currentSlide(12)"></span> 
+			</div>
+			
+		</div>
+	</div>
+	
+	<div id="overlay"></div>
+	<div id="popupBird">
+		<div class="popupcontrolsBird">
+			<span id="popupcloseBird">X</span>
+		</div>
+		<div class="popupcontentBird">
+			<h1 align="center">Haiti Photo Gallery</h1>
+			<div class="slideshow-container">
+				<div class="mySlides Bird">
+					<div class="numbertext">1 / 12</div>
+					<img src="images/HummingBird/HummingBird1.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">Each student got one or two photos displayed in a 
+					final photo exibition at the end of the Jouk Li Jou Kan Foto youth photography camp.</div>
+				</div>
+				<div class="mySlides Bird">
+					<div class="numbertext">2 / 12</div>
+					<img src="images/Haiti/Haiti2.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">Student Photo Exibition</div>
+				</div>
+				<div class="mySlides Bird">
+					<div class="numbertext">3 / 12</div>
+					<img src="images/Haiti/Haiti3.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">Preparing a banner for the exibition.</div>
+				</div>
+				<div class="mySlides Bird">
+					<div class="numbertext">4 / 12</div>
+					<img src="images/Haiti/Haiti4.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">Hand woven hats for sale on the beach in Jacmel.</div>
+				</div>
+				<div class="mySlides Bird">
+					<div class="numbertext">5 / 12</div>
+					<img src="images/Haiti/Haiti5.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">The Haitian streets.</div>
+				</div>
+				<div class="mySlides Bird">
+					<div class="numbertext">6 / 12</div>
+					<img src="images/Haiti/Haiti6.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">I found it amazing the amount of stuff that people could carry on their heads. 
+					This was one of the crziest.</div>
+				</div>
+				<div class="mySlides Bird">
+					<div class="numbertext">7 / 12</div>
+					<img src="images/Haiti/Haiti7.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">Another Jacmel beach. This time the beach is made of garbage instead of sand. This was 
+					a major issue throughout Haiti. Many times we would come across large piles of garbage on the street and 
+					other it would wash up from the ocean. Unfourtunately, most of the garbage ends up in the ocean.</div>
+				</div>
+				<div class="mySlides Bird">
+					<div class="numbertext">8 / 12</div>
+					<img src="images/Haiti/Haiti8.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">There was so much garbage that wild pigs and homeless dogs would scavange for food. 
+					Most probably lived in it.</div>
+				</div>
+				<div class="mySlides Bird">
+					<div class="numbertext">9 / 12</div>
+					<img src="images/Haiti/Haiti9.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">More garbage. More dogs.</div>
+				</div>
+				<div class="mySlides Bird">
+					<div class="numbertext">10 / 12</div>
+					<img src="images/Haiti/Haiti10.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">Haitian people walked through this garbage almost as much as the wild animals.</div>
+				</div>
+				<div class="mySlides Bird">
+					<div class="numbertext">11 / 12</div>
+					<img src="images/Haiti/Haiti11.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text">Hair business on the beach.</div>
+				</div>
+				<div class="mySlides Bird">
+					<div class="numbertext">12 / 12</div>
+					<img src="images/Haiti/Haiti12.jpg" style="align:center; max-width:100%; max-height:700px">
+					<div class="text"></div>
+				</div>
+				<a class="prev" onclick="plusSlides(-1)"> < </a>
+				<a class="next" onclick="plusSlides(1)"> > </a>
+			</div>
+			
+			<br>
+
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span> 
+				<span class="dot" onclick="currentSlide(3)"></span> 
+				<span class="dot" onclick="currentSlide(4)"></span> 
+				<span class="dot" onclick="currentSlide(5)"></span> 
+				<span class="dot" onclick="currentSlide(6)"></span> 
+				<span class="dot" onclick="currentSlide(7)"></span> 
+				<span class="dot" onclick="currentSlide(8)"></span> 
+				<span class="dot" onclick="currentSlide(9)"></span> 
+				<span class="dot" onclick="currentSlide(10)"></span> 
+				<span class="dot" onclick="currentSlide(11)"></span> 
+				<span class="dot" onclick="currentSlide(12)"></span> 
+			</div>
+		</div>
+	</div>
+	
+	<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			if (n > slides.length) {slideIndex = 1}    
+			if (n < 1) {slideIndex = slides.length}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex-1].style.display = "block";  
+			dots[slideIndex-1].className += " active";
+		}
+	</script>
+	
+	<script type="text/javascript">
+		// Initialize Variables
+		var overlay = document.getElementById("overlay");
+		var closePopupHaiti = document.getElementById("popupcloseHaiti");
+		var closePopupOak = document.getElementById("popupcloseOak");
+		var closePopupColorado = document.getElementById("popupcloseColorado");
+		var closePopupCinco = document.getElementById("popupcloseCinco");
+		var closePopupBird = document.getElementById("popupcloseBird");
+		var closePopupOther = document.getElementById("popupcloseOther");
+		var popupHaiti = document.getElementById("popupHaiti");
+		var popupOak = document.getElementById("popupOak");
+		var popupColorado = document.getElementById("popupColorado");
+		var popupCinco = document.getElementById("popupCinco");
+		var popupBird = document.getElementById("popupBird");
+		var popupOther = document.getElementById("popupOther");
+		var buttonHaiti = document.getElementById("buttonHaiti");
+		var buttonOak = document.getElementById("buttonOak");
+		var buttonColorado = document.getElementById("buttonColorado");
+		var buttonCinco = document.getElementById("buttonCinco");
+		var buttonBird = document.getElementById("buttonBird");
+		var buttonOther = document.getElementById("buttonOther");
+		// Close Popup Event
+		closePopupHaiti.onclick = function() {
+			overlay.style.display = 'none';
+			popupHaiti.style.display = 'none';
+		};
+		// Show Overlay and Popup
+		buttonHaiti.onclick = function() {
+			overlay.style.display = 'block';
+			popupHaiti.style.display = 'block';
+		}
+		
+		// Close Popup Event
+		closePopupOak.onclick = function() {
+			overlay.style.display = 'none';
+			popupOak.style.display = 'none';
+		};
+		// Show Overlay and Popup
+		buttonOak.onclick = function() {
+			overlay.style.display = 'block';
+			popupOak.style.display = 'block';
+		}
+		
+		// Close Popup Event
+		closePopupColorado.onclick = function() {
+			overlay.style.display = 'none';
+			popupColorado.style.display = 'none';
+		};
+		// Show Overlay and Popup
+		buttonColorado.onclick = function() {
+			overlay.style.display = 'block';
+			popupColorado.style.display = 'block';
+		}
+		
+		// Close Popup Event
+		closePopupCinco.onclick = function() {
+			overlay.style.display = 'none';
+			popupCinco.style.display = 'none';
+		};
+		// Show Overlay and Popup
+		buttonCinco.onclick = function() {
+			overlay.style.display = 'block';
+			popupCinco.style.display = 'block';
+		}
+		
+		// Close Popup Event
+		closePopupBird.onclick = function() {
+			overlay.style.display = 'none';
+			popupBird.style.display = 'none';
+		};
+		// Show Overlay and Popup
+		buttonBird.onclick = function() {
+			overlay.style.display = 'block';
+			popupBird.style.display = 'block';
+		}
+		
+		// Close Popup Event
+		closePopupOther.onclick = function() {
+			overlay.style.display = 'none';
+			popupOther.style.display = 'none';
+		};
+		// Show Overlay and Popup
+		buttonOther.onclick = function() {
+			overlay.style.display = 'block';
+			popupOther.style.display = 'block';
+		}
+	</script>
+	
 </body>
 	
 </html>
