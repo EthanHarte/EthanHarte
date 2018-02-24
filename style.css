@@ -343,8 +343,8 @@ p {
 
 body {
 	overflow-y: scroll;
-	//background-color: white;
-	background-image: url(images/bg.jpg);
+	background-color: #303030;
+	//background-image: url(images/bg.jpg);
 }
 
 /*Div Classes*/
@@ -362,7 +362,7 @@ body {
 	z-index:99;
 	position:fixed;
 	width:1000px;	
-	height:182px;
+	height:185px;
 	top:0;
 	background-image:url(images/bg_banner_small.png);
 }
@@ -390,7 +390,7 @@ body {
 	//overflow-y: scroll;
 	padding: 15px;
 	border-radius:0px 0px 15px 15px;
-	background-color:#ffffff;
+	background-color:#eeeeee;
 	width:970px;
 	height: 65%;
 }
