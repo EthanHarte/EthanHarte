@@ -362,9 +362,12 @@ body {
 	z-index:99;
 	position:fixed;
 	width:1000px;	
-	height:185px;
+	height:230px;
 	top:0;
-	background-image:url(images/bg_banner_small.png);
+	background-image:url(images/banner.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .navigation {
