@@ -359,7 +359,7 @@ body {
 }
 
 .banner {
-	z-index:99;
+	z-index:100;
 	position:fixed;
 	width:1000px;	
 	height:230px;
@@ -368,10 +368,12 @@ body {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: center;
+	pointer-events: none;
 }
 
 .navigation {
-	z-index:0;
+	position: relative;
+	z-index:1;
 	width: 1000px;
 	height: 50px;
 	margin: 0 auto;
